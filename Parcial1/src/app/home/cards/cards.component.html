@@ -1,8 +1,12 @@
 <div class="mb-4 p-8">
     <p-card>
-        <div class="card flex justify-center">
-            <p-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7JMZivne_dpSRI_m4KpKLAUb3vzSsXMg8-A&s" alt="Image" width="300" />
-        </div>
+        <ng-template #header>
+            <div class="card-image">
+                <img alt="Card" class="w-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7JMZivne_dpSRI_m4KpKLAUb3vzSsXMg8-A&s" width="400" />
+            </div>
+        </ng-template>
+
+
         <h3>Servicios Web</h3>
         <p class="m-0">
             Ofrecemos el diseño, desarrollo e implementación de aplicaciones y plataformas web personalizadas que permiten a las empresas mejorar su presencia digital, optimizar procesos internos y brindar experiencias de usuario intuitivas. Nuestros servicios incluyen desde páginas corporativas hasta sistemas en línea complejos, con enfoque en rendimiento, seguridad y accesibilidad desde cualquier dispositivo.

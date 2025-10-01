@@ -14,7 +14,7 @@
 
 .container_menubar {
     width: 100%;
-    margin: 10px;
+    margin: 35px 0px 35px 0px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     background-color: #ffffff;
@@ -28,10 +28,10 @@
 }
 
 .container_cards {
-    margin: 20px;
+    margin: 50px 20px 70px 20px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 50px;
 }
 
 h1 {
