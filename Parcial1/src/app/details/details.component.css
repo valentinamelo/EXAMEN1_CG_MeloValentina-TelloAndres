@@ -1,22 +1,78 @@
-.container_details {
+
+.container_home {
     display: flex;
-    gap: 20px;
+    gap: 280px;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Espacio entre los elementos */
 }
+
+.container_menubar {
+    width: 100%;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.container_inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.container_cards {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+.creditos {
+    margin: 15px;
+}
+
+.container_image {
+    text-align: left;
+}
+
 
 .texto_creditos {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    color: #f9f9f9;
+    text-align: center;
 }
 
 .creditos {
     align-items: center;
+}
+
+.container_toast {
+    flex-wrap: wrap;
+    padding: 100px 500px 100px 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .toast-container {
