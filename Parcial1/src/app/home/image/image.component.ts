@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { Image } from 'primeng/image';
 
 @Component({
-  selector: 'app-image',
-  imports: [],
-  templateUrl: './image.component.html',
-  styleUrl: './image.component.css'
+    selector: 'image-app',
+    templateUrl: './image.component.html',
+    standalone: true,
+    imports: [Image]
 })
-export class ImageComponent {
-
+export class ImageApp {
 }
