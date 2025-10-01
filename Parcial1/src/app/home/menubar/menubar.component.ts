@@ -15,47 +15,33 @@ export class MenubarComponent {
     ngOnInit() {
         this.items = [
             {
-                label: 'Home',
+                label: 'Inicio',
                 icon: 'pi pi-home'
             },
             {
-                label: 'Features',
+                label: 'Características',
                 icon: 'pi pi-star'
             },
             {
-                label: 'Projects',
+                label: 'Proyectos',
                 icon: 'pi pi-search',
                 items: [
                     {
-                        label: 'Components',
+                        label: 'Servicios Web',
                         icon: 'pi pi-bolt'
                     },
                     {
-                        label: 'Blocks',
+                        label: 'Servidores',
                         icon: 'pi pi-server'
                     },
                     {
-                        label: 'UI Kit',
+                        label: 'Desarrollo de Software',
                         icon: 'pi pi-pencil'
                     },
-                    {
-                        label: 'Templates',
-                        icon: 'pi pi-palette',
-                        items: [
-                            {
-                                label: 'Apollo',
-                                icon: 'pi pi-palette'
-                            },
-                            {
-                                label: 'Ultima',
-                                icon: 'pi pi-palette'
-                            }
-                        ]
-                    }
                 ]
             },
             {
-                label: 'Contact',
+                label: 'Contactos',
                 icon: 'pi pi-envelope'
             }
         ]
